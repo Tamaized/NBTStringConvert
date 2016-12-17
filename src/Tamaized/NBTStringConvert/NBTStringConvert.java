@@ -86,7 +86,7 @@ public class NBTStringConvert {
 					tag = writeNewTag(ct, name, replace, set);
 				} else if (tag instanceof ListTag) {
 					// System.out.println("(ListTag) enter: " + tag.getName());
-					writeNewTag((ListTag) tag, name, replace, set);
+					tag = writeNewTag((ListTag) tag, name, replace, set);
 				}
 			}
 			stream.close();
