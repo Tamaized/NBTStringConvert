@@ -1,4 +1,4 @@
-package Tamaized.NBTStringConvert;
+package tamaized.nbtstringconvert;
 
 import org.jnbt.CompoundTag;
 import org.jnbt.ListTag;
